@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 repo_name="$(basename `git rev-parse --show-toplevel`)"
-ghc_attr_namever="ghc7103"
+# ghc_attr_namever="ghc7103"
+ghc_attr_namever="ghc801"
 
 nix-env -i cabal2nix
 
